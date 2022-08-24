@@ -1,6 +1,6 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['0E514671-CE3A-4053-8F3C-2027E73F05EE_1_105_c.jpeg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
-    const bgImgs = bgImgsNames.map(img => "img/" + img);
+    const bgImgsNames = ['2021/0E514671-CE3A-4053-8F3C-2027E73F05EE_1_105_c.jpeg', '2021/2A99406E-6AEB-447B-BBEC-9583CD01A477_1_105_c.jpeg', '2021/2E53ECD4-9430-4E7E-BF66-6BF3BCC98D45_1_105_c.jpeg'];
+    const bgImgs = bgImgsNames.map(img => "images/" + img);
 
     $.backstretch(bgImgs, {duration: 4000, fade: 500});
 
